@@ -1,6 +1,6 @@
 {
   "name": "soap-extended",
-  "version": "0.15.3",
+  "version": "0.15.4",
   "description": "A minimal node SOAP client",
   "engines": {
     "node": ">=0.10.0"
