@@ -1,3 +1,4 @@
+'use strict';
 
 var fs = require('fs'),
   duplexer = require('duplexer'),
@@ -18,6 +19,9 @@ module.exports = function createSocketStream(file, length) {
   };
 
   socketStream.uncork = function() {
+  };
+
+  socketStream.destroy = function() {
   };
 
   socketStream.req = httpReqStream;
